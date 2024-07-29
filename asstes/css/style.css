@@ -1,0 +1,200 @@
+/* Common Css Start */
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+  --secondary-text-color: ;
+  --default-black: ;
+  --gray-white: ;
+  --default-white: ;
+  --icon-color: ;
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #303030;
+}
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+p,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span,
+small {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+/* //Common Css End */
+
+/* nav css section start */
+#mynav {
+  background: #ffffff;
+}
+#mynav button {
+  background-color: #ffffff;
+}
+#mynav ul li a {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 200%;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 14px 23px;
+  transition: 0.6s;
+}
+
+#mynav ul li a:hover,
+#mynav ul li a.active {
+  color: #ffffff;
+  background-color: red;
+}
+
+#mynav .container .nav_icon button {
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 26px;
+  text-align: center;
+}
+
+/* nav css section end */
+
+/* bannar css section start */
+
+#banner .banner_slider_item{
+  height: 780px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#banner::after{
+  contain: '';
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+
+#banner .banner_slider_item .inner_container h1 {
+  font-size: 125px;
+  color: #e8631c;
+  margin-top: 210px;
+  margin-left: -38px;
+}
+#banner .banner_slider_item .inner_container p {
+  font-size: 30px;
+  color: green;
+  margin-left: -26px;
+}
+#banner .banner_slider_item .inner_container a {
+  display: inline-block;
+  padding: 14px 51px;
+  background-color: #303030;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 26px;
+  border-radius: 5px;
+  margin-left: -22px;
+  transition: 0.67s;
+}
+#banner .banner_slider_item .inner_container a:hover {
+  background-color: #e8631c;
+  color: #ffffff;
+}
+/* bannar css section end */
+
+
+/* ======================================================================================== */
+
+
+/* footer css scetion start */
+#footer {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.11), rgba(255,0,0,1));
+  padding-bottom: 80px;
+}
+#footer .footer_info img {
+  padding-top: 82px;
+  width: 50%;
+}
+#footer .footer_info img {
+  padding-top: 82px;
+}
+#footer .footer_info p {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+#footer .footer_info .social_icon i {
+  color: #303030;
+  background-color: #ffffff;
+  font-size: 22px;
+  padding: 7px 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+  margin-top: 20px;
+  transition: 0.67s;
+}
+#footer .footer_info .social_icon i:hover {
+  color: #ffffff;
+  background-color: #e8631c;
+  cursor: pointer;
+}
+#footer h4 {
+  color: #ffffff;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding-top: 73px;
+}
+#footer ul li a {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15px;
+  transition: 0.67s;
+}
+#footer ul li a:hover {
+  color: black;
+  cursor: pointer;
+}
+/* footer css scetion end */
